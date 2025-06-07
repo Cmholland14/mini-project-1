@@ -13,6 +13,11 @@ header {
   gap: 20px; /* Add spacing between logo and menu */
 }
 
+.sub-text {
+  font-style: italic;
+}
+
+
 #logo {
   width: 100px;
   height: 100px;
@@ -125,6 +130,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-size: 14px;
 }
 
 .footer-text {
@@ -133,6 +139,6 @@ footer {
 }
 
 .social-icon {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
 }
