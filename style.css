@@ -76,6 +76,7 @@ h2 {
   height: 200px;     /* Or whatever height you prefer */
   object-fit: cover; /* Ensures image fills the box and crops nicely */
   display: block;
+  transition: transform 0.3s ease;
 }
 
       #boxes {
@@ -84,6 +85,7 @@ h2 {
         flex-wrap: wrap;
         justify-content: center;
       }
+
 
         footer {
         background: lightblue;
