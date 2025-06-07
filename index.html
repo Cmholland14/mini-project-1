@@ -1,51 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Drifters Pizza Shop</title>
-    <link rel="stylesheet" href="style.css">
-  
-  </head>
-  <body>
-    <header>
-       
-     <div id="logo">
-  <img src="Images/pizza.jpg" alt="Logo">
-</div>
-      <nav id="main-menu">
-        <ul class="menu">
-          <li>Home</li>
-          <li>Menu</li>
-          <li>About Us</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
-     <h1 class="top-text">Welcome to Drifters Pizza Shop</h1>
-    <h2 class="sub-text">Freshly baked pizzas every day</h2>
-    <main>
-      <section id="boxes">
-        <div class="box" data-name="Margherita"><img src="Images/margherita.jpg" alt="Margherita"></div>
-        <div class="box" data-name="Meat Lovers"><img src="Images/meat.jpg" alt="Meat Lovers"></div>
-        <div class="box" data-name="Paneer"><img src="Images/paneer.jpg" alt="Paneer"></div>
-        <div class="box" data-name="Pepperoni"><img src="Images/pepperoni.jpg" alt="Pepperoni"></div>
-        <div class="box" data-name="Pineapple"><img src="Images/pineapple.jpg" alt="Pineapple"></div>
-        <div class="box" data-name="Vegetarian"><img src="Images/vegetarian.jpg" alt="Vegetarian"></div>
-        <div class="box" data-name="Olive"><img src="Images/olive.jpg" alt="Olive"></div>
-        <div class="box" data-name="Mushroom"><img src="Images/mushroom.jpg" alt="Mushroom"></div>
-        <div class="box" data-name="Ham"><img src="Images/ham.jpg" alt="Ham"></div>
-        <div class="box" data-name="Chicken"><img src="Images/chicken.jpg" alt="Chicken"></div>
-        <div class="box" data-name="Spinach"><img src="Images/spinach.jpg" alt="Spinach"></div>
-        <div class="box" data-name="Sweetcorn"><img src="Images/sweetcorn.jpg" alt="Sweetcorn"></div>
-      </section>
-    </main>
-    
-      <footer>
-    <p>@2025 Drifters Pizza Shop All Rights Reserved</p>
-    <p>Follow us on Facebook | Instagram</p>
-  </footer>
-  </body>
-  
-</html>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drifters Pizza Shop</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+
+    <div id="logo">
+      <img src="Images/pizza.jpg" alt="Logo">
+    </div>
+    <nav id="main-menu">
+      <ul class="menu">
+        <li>Home</li>
+        <li>Menu</li>
+        <li>About Us</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+  <h1 class="top-text">Welcome to Drifters Pizza Shop</h1>
+  <h2 class="sub-text">Freshly baked pizzas every day</h2>
+  <main>
+    <section id="pizza-container">
+      <div class="pizza-item" data-name="Margherita">
+        <img src="Images/margherita.jpg" alt="Margherita">
+        <h3>$20.00</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza-item" data-name="Meat Lovers">
+        <img src="Images/meat.jpg" alt="Meat Lovers">
+        <h3>$28.00</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza-item" data-name="Paneer">
+        <img src="Images/paneer.jpg" alt="Paneer">
+        <h3>$23.00</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza-item" data-name="Pepperoni">
+        <img src="Images/pepperoni.jpg" alt="Pepperoni">
+        <h3>$25.00</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza-item" data-name="Pineapple">
+        <img src="Images/pineapple.jpg" alt="Pineapple">
+        <h3>$26.50</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza-item" data-name="Vegetarian">
+        <img src="Images/vegetarian.jpg" alt="Vegetarian">
+        <h3>$24.00</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza-item" data-name="Olive">
+        <img src="Images/olive.jpg" alt="Olive">
+        <h3>$22.00</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza-item" data-name="Mushroom">
+        <img src="Images/mushroom.jpg" alt="Mushroom">
+        <h3>$21.00</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza-item" data-name="Ham">
+        <img src="Images/ham.jpg" alt="Ham">
+        <h3>$22.00</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza-item" data-name="Chicken">
+        <img src="Images/chicken.jpg" alt="Chicken">
+        <h3>$28.00</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza-item" data-name="Spinach">
+        <img src="Images/spinach.jpg" alt="Spinach">
+        <h3>$21.00</h3>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza-item" data-name="Sweetcorn">
+        <img src="Images/sweetcorn.jpg" alt="Sweetcorn">
+        <h3>$22.50</h3>
+        <button>Order Now</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-text">
+      <span>@2025 Drifters Pizza Shop | All Rights Reserved</span>
+   
+    </div>
+    <div class="social-links">
+      <a href="https://www.facebook.com/YourPage" target="_blank" aria-label="Facebook">
+        <img src="Images/facebook.png" alt="Facebook" class="social-icon" />
+
+      </a>
+      <a href="https://www.instagram.com/YourProfile" target="_blank" aria-label="Instagram">
+        <img src="Images/instagram.jpg" alt="Instagram" class="social-icon" />
+      </a>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
